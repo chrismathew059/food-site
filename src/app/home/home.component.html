@@ -1,0 +1,45 @@
+<app-search></app-search>
+<app-tags></app-tags>
+
+<ul>
+    <li *ngFor="let food of foods">
+        <a routerLink="/food/{{food.id}}">
+          <div class="box">
+          <img src="{{food.imageUrl}}" alt=""/>   
+            
+          
+         <div class="content"> 
+          <div class="name">
+            <b>
+             {{food.name}}
+             </b>  
+          </div>
+          <button onclick="changeColor()" id="button-solid" class="favorite {{food.favorite}}">
+             🤍
+          </button>
+          <div class="product_item_footer">
+               
+                <div class="cooktime">
+                  <span>🕒</span>
+                    &nbsp;&nbsp;&nbsp;
+                    <p style="display: inline-block;" id="time">{{food.cookTime}} </p>
+                 </div>
+                <div class="price">
+                   <b>&#x20B9;{{food.price}}</b>
+               </div>
+               <div class="origins">
+                <span *ngFor="let orgin of food.orgins">
+                              {{orgin}}
+                </span>
+              </div>
+
+          </div>
+         </div>
+      </div>
+      </a>
+         
+    </li>
+  
+  </ul>
+  
+  

@@ -1,0 +1,49 @@
+/* You can style files */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Teko";
+    font-size:25px
+}
+
+
+html{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: blue;
+    color:white;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+a.logo{
+    color: rgb(255, 169, 8);
+    font-weight: bold;
+    padding:1em;
+    font-size:30px;
+}
+
+nav ul{
+   list-style-type: none;
+   margin: 0;
+   font-size: 30px;
+}
+
+

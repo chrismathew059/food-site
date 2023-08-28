@@ -1,0 +1,21 @@
+div{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div a{
+    background-color: #f0f0f0;
+    padding: .3rem 1rem;
+    margin: .2rem .15rem;
+    border-radius: 10rem;
+    font-weight: 300;
+    font-size: smaller;
+    color:black;
+    opacity: .8;
+}
+
+div a:hover{
+    background-color: darkorange;
+    color: whitesmoke;
+}
