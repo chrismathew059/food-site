@@ -16,11 +16,12 @@ getFoodById(id:number):Food{
 
 getAllTags():Tag[]{
   return[
-    {Name:'All',Count:15},
-    {Name:"Fast Food",Count:5},
-    {Name:'Pizza',Count:2},
-    {Name:'Lunch',Count:5},
-    {Name:'Spicy',Count:6}
+    {Name:'All',Count:10},
+    {Name:"Fast Food",Count:3},
+    {Name:'Pizza',Count:1},
+    {Name:'Sugar',Count:3},
+    {Name:'Spicy',Count:3},
+    {Name:'Drinks',Count:2}
   ];
 }
 
@@ -77,7 +78,85 @@ getAll():Food[]{
       stars:4.8,
   imageUrl: '/assets/images/Foods/food-4.jpg',
   tags:['Serves 1','Fast Food','Sugar'],
-    }
+    },
+
+    {
+      id:105,
+      name:"Pepperonni Pizza",
+      cookTime:'25-30 mins',
+      price:460,
+      favorite:false,
+      orgins: ['Chinese'],
+      stars:4.5,
+  imageUrl:'/assets/images/Foods/food-5.jpg',
+  tags:['Serves 2','Pizza','Authentic'],
+    },
+    {
+      id:106,
+      name:"Strawberry Shake",
+      cookTime:'10-12 mins',
+      price:460,
+      favorite:false,
+      orgins: ['Asia'],
+      stars:4.5,
+  imageUrl:'/assets/images/Foods/food-6.jpg',
+  tags:['Serves 1','Sugar','Drinks'],
+},
+{
+  id:107,
+  name:"Broasted Chicken",
+  cookTime:'20-25 mins',
+  price:540,
+  favorite:false,
+  orgins: ['European'],
+  stars:4.5,
+imageUrl:'/assets/images/Foods/food-7.jpg',
+tags:['Serves 1','Fast Food','Spicy','Broasted'],
+},
+
+{
+  id:108,
+  name:"Green Apple Mojito",
+  cookTime:'10-15 mins',
+  price:120,
+  favorite:false,
+  orgins: ['Asian'],
+  stars:4.5,
+imageUrl:'/assets/images/Foods/food-8.jpg',
+tags:['Serves 1','Drinks'],
+},
+
+{
+  id:109,
+  name:"Penne Alfredo Pasta",
+  cookTime:'10-12 mins',
+  price:220,
+  favorite:false,
+  orgins: ['Chinese'],
+  stars:4.5,
+imageUrl:'/assets/images/Foods/food-9.jpg',
+tags:['Serves 1','Spicy','Pasta'],
+},
+
+{
+  id:110,
+  name:"Chicken Wings",
+  cookTime:'20-25 mins',
+  price:180,
+  favorite:false,
+  orgins: ['European'],
+  stars:4.5,
+imageUrl:'/assets/images/Foods/food-10.jpg',
+tags:['Serves 1','Broasted'],
+},
+
+
+
+
+
+
+
+
     
   ]
 

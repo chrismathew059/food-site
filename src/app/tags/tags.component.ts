@@ -12,7 +12,7 @@ export class TagsComponent implements OnInit {
   foodPageTags?:string[];
 
   @Input()
-  justifycontent:string='center';
+  justifycontent:string='left';
   
   tags?:Tag[];
   constructor(private foodservice:FoodService){}

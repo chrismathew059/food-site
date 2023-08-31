@@ -10,12 +10,12 @@ export class CartService {
   constructor() { }
 
   addtoCart(food:Food):void{
-     let cartItem=this.cart.items.find(item=>item.food.id === food.id)
+     let cartItem=this.cart.items.find(item=>item.food.id == food.id)
      if(cartItem){
       this.changeQuantity(food.id,cartItem.quantity+1);
       return;
      }
-     this.cart.items.push(new Cartitem(food));
+     this.cart.items.push(new Cartitem(food,1));
   } 
   
  removeFromCart(foodId:number):void{
