@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "https://chrismathew059.github.io/food-site/",
             "outputPath": "dist/fw",
             "index": "src/index.html",
             "main": "src/main.ts",
