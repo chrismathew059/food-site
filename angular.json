@@ -12,8 +12,7 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
-          "options": {
-            "baseHref": "https://chrismathew059.github.io/food-site/",
+          "options": {        
             "outputPath": "dist/fw",
             "index": "src/index.html",
             "main": "src/main.ts",
