@@ -1,8 +1,14 @@
+
+<div class="para">
+  <div>
 <app-search></app-search>
 <app-tags></app-tags>
+  </div>
 <app-not-found [visible]="!foods || foods.length<=0" resetLinkText="Reset Search"></app-not-found>
+ <div class="container">
 <ul>
     <li *ngFor="let food of foods">
+
         <a routerLink="/food/{{food.id}}">
           <div class="box">
           <img src="{{food.imageUrl}}" alt=""/>   
@@ -41,5 +47,7 @@
     </li>
   
   </ul>
+</div>
+
   
   

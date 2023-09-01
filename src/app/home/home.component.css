@@ -1,13 +1,39 @@
 
 @import url("https://fonts.googleapis.com/css?family=Oswald|Noto+Sans");
 
+.container{
+    background-image: linear-gradient(to right,rgb(214, 68, 0),rgb(255, 155, 40))
+
+}
+
+.para{
+    background-image: url('/assets/images/Foods/template.png');
+    padding: 0;
+}
+
+
+.box{
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+    
+    border-radius: 5px 5px 10px 10px;
+}
+
+.box:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
 ul{
-    justify-content: center;
+    justify-content:space-evenly;
     display: flex;
     align-items: center;
-    padding: 0;
+    padding: 5px 16px;
+   
     list-style-type: none;
     flex-wrap: wrap;
+   gap: 3rem;
+ 
+    
 }
 
 .favorite{
@@ -26,8 +52,8 @@ ul{
  img{
     height: 20rem;
     width: 20rem;
-    margin: 0.5rem;
-    border-radius:1rem;
+    margin: none;
+    border-radius:1rem 1rem 0 0;
     border: 1px rgb(255, 209, 123);
     display: flex;
     overflow: hidden;
@@ -40,10 +66,7 @@ ul{
 
 
 
-li a:hover{
-    opacity: 0.9;
-    cursor: pointer;
-}
+
 
 .content{
     color: black;
@@ -51,6 +74,8 @@ li a:hover{
     font-family: "Noto Sans";
     padding: .5rem 1rem;
     position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px 0px 10px 10px;
 
 }
 
